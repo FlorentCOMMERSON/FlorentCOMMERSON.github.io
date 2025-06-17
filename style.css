@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Calistoga";
+    src: url(font/Calistoga/Calistoga-Regular.ttf);
+     
+  }
+
+*{
+    margin : 0;
+    padding : 0;
+}
+
+
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(249, 191, 129);
+    height : 10vh;
+    font-family: "Calistoga";
+}
+
+.titre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 147, 35);
+    height: 15vh;   
+    font-family: "Calistoga";
+    font-size: 35px;
+}
+
+article{
+    width:80%;
+    margin:auto;
+    margin-top : 10vh;
+    background-color: rgb(249, 224, 197);
+    padding : 50px;
+    display: flex;
+    border : 3px solid rgb(255, 148, 34);
+    border-radius: 15% 10%;
+}
+
+.present{
+    justify-content: space-between;
+}
+
+.present p{
+    text-align: justify;
+    width: 25%;
+}
+
+.event{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+    height : 30vh;
+}
+
+.ban{
+    width: 70%;
+}
+
+footer{
+    margin-top : 5vh;
+    background-color: rgb(252, 147, 35);
+    height: 15vh;
+}
+
+h2{
+    font-family: "Calistoga";
+}
